@@ -1,7 +1,6 @@
 ''' This file contains necessary custom built functions '''
 from random import sample
 import streamlit as st
-import plotly.express as px
 
 def recommend(df, category):
     categorized = df.loc[df['category']==category]
